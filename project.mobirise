@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "contactus.html",
     "name": "Abhir Group ",
     "theme": {
       "name": "mobirise3",
@@ -33,7 +33,7 @@
       "settings": {
         "main": true,
         "title": "Home ",
-        "meta_descr": "Rose Wedding and Event Planner ",
+        "meta_descr": "Abhir Group ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -325,8 +325,8 @@
     },
     "whoweare.html": {
       "settings": {
-        "title": "Web Site Generator Title",
-        "meta_descr": "Web Site Generator Description",
+        "title": "Who we are ",
+        "meta_descr": "Who is abhir group ",
         "order": 2
       },
       "components": [
