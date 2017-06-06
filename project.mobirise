@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "contactus.html",
     "name": "Abhir Group ",
     "theme": {
       "name": "mobirise3",
@@ -768,7 +768,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-128x85.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-128x85.jpg",
               "width": 128,
               "active": true,
               "link": "index.html",
