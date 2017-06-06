@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "contactus.html",
+    "currentPage": "index.html",
     "name": "Abhir Group ",
     "theme": {
       "name": "mobirise3",
@@ -161,7 +161,7 @@
           },
           "title": "About US&nbsp;",
           "text": "Abhir Group is a web designer who makes great use of over sized text, which he utilizes to bring attention to what he does in a humorous manner. While he proudly states the companies he has designed websites for, like IKEA, he’s not boasting. He also provides testimonials and comes across as very friendly and approachable, even if you just need a simple website design for your small business.<br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">WHO WE ARE&nbsp;</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">WHO WE ARE&nbsp;</a>"
         },
         {
           "_name": "footer1",
