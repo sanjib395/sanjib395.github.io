@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "whoweare.html",
+    "currentPage": "index.html",
     "name": "Abhir Group ",
     "theme": {
       "name": "mobirise3",
@@ -144,7 +144,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
