@@ -15,18 +15,19 @@
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
-        "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 17,
+    "uniqCompNum": 52,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "favicon": "@PROJECT_PATH@/assets/images/dta-ghring-gib-hut-128x80.png",
-    "noImageResize": ""
+    "noImageResize": "",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -47,7 +48,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "32px",
+              "font-size": "36px",
               "font-family": "'Bitter', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
             },
@@ -60,10 +61,10 @@
               "font-family": "'Bitter', serif"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "#c0a375"
@@ -98,7 +99,7 @@
           "_anchor": "menu-0",
           "_params": {
             "bgColor": "#475577",
-            "fontSize": 0.75,
+            "fontSize": "0.95",
             "fontName": {
               "name": "Bitter",
               "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
@@ -350,10 +351,10 @@
               "font-family": "'Bitter', serif"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.8rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.866rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "#c0a375"
@@ -388,7 +389,7 @@
           "_anchor": "menu-1",
           "_params": {
             "bgColor": "#475577",
-            "fontSize": 0.75,
+            "fontSize": "0.8",
             "fontName": {
               "name": "Bitter",
               "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
@@ -420,7 +421,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://sanjib395.github.io\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Abhir Group&nbsp;</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whoweare.html\" aria-expanded=\"false\">WHO WE ARE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"whoweare.html\" aria-expanded=\"false\">WHO WE ARE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">BIO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -588,47 +589,41 @@
           "_anchor": "gallery3-4",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_styles": {
+            "DIV": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "image1-j",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "_params": {
+            "showText": true
+          },
+          "text": "We Create awesome mobile-friendly websites.&nbsp;"
         }
       ]
     },
     "contactus.html": {
       "settings": {
         "title": "Contact Us ",
-        "meta_descr": "Contact us for number ",
-        "order": 3
+        "meta_descr": "Contact Abir Group "
       },
       "components": [
-        {
-          "_inherit": "social-buttons1",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons3",
-          "_anchor": "social-buttons3-8",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "facebook": true,
-            "twitter": true,
-            "google": true,
-            "vkontakte": false,
-            "odnoklassniki": false
-          },
-          "text": "Also you can find us here"
-        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -636,9 +631,9 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "32px",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+              "font-size": "36px",
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -649,10 +644,10 @@
               "font-family": "'Bitter', serif"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "#c0a375"
@@ -684,10 +679,10 @@
             }
           },
           "_name": "menu",
-          "_anchor": "menu-5",
+          "_anchor": "menu-1a",
           "_params": {
             "bgColor": "#475577",
-            "fontSize": 0.75,
+            "fontSize": "0.95",
             "fontName": {
               "name": "Bitter",
               "url": "https://fonts.googleapis.com/css?family=Bitter:400,700",
@@ -728,7 +723,7 @@
               "color": "#ffffff"
             }
           },
-          "_anchor": "footer1-6",
+          "_anchor": "footer1-1b",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -744,32 +739,73 @@
           "text": "Copyright (c) 2017 Abhir Group<br>Desing By Sanjib Sahoo"
         },
         {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_styles": {
-            "STRONG": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "contacts1-7",
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-1d",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_styles": {
+            "H4": {
+              "color": "#41a85f"
+            },
+            "STRONG": {
+              "color": "#41a85f"
+            },
+            "P": {
+              "color": "#41a85f",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "contacts3-1e",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-128x85.jpg",
-              "width": 128,
+              "src": "@PROJECT_PATH@/assets/images/18881718-134407817123646-5027480521143009557-n-265x167.jpg",
+              "class": "card-img-top",
+              "width": 265,
               "active": true,
               "link": "index.html",
               "alt": "",
@@ -777,25 +813,86 @@
               "linkInNewWindow": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
               "link": "",
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Plot - 791, Sector -28<br>Gurgaon,Haryana -122002",
-          "text2": "<strong>Contacts</strong><br>\nEmail:- sanjib@abhirgroup.com<br>\nPhone: +91- 9971085953<br>\nFax: - 0124-43589421",
-          "text3": "<p><strong>Links</strong><br>Website - www.abhirgroup.com</p>"
+          "text1": "Abhir Group&nbsp;",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "+91-9971085953",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "map-pin",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0
+            }
+          },
+          "text3": "791,Sector -28<br>Gurgaon,Haryana",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<p><a href=\"mailto:sanjib@abhirgroup.com\" target=\"_blank\" class=\"text-white\">sanjib@abhirgroup.com</a><a href=\"mailto:support@mobirise.com\"></a></p>",
+          "title1": "Categories",
+          "text5": "<li><a class=\"text-primary\" href=\"index.html\">Business</a></li><li><a href=\"index.html\">Designs</a><a class=\"text-white\" href=\"#\"></a></li><li><a href=\"index.html\">Application</a><a class=\"text-white\" href=\"#\"></a></li><li><a href=\"index.html\">E-Commerce</a></li>",
+          "text6": "<strong>Contacts</strong><br>Email: sanjib@abhirgroup.com<br>Phone: +91-9971085953<br>Fax: +124-43856981<br><br><br><strong>Address</strong><br>791,Sector -28<br>Gurgaon,Haryana<br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "sanjib.sahoo395@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "map1",
-          "_anchor": "map1-d",
+          "_anchor": "map1-1f",
           "_params": {
             "googleMap": {
-              "address": "plot-798,Sector-28\nGurgaon,Haryana -122002",
-              "placeId": "ChIJ-0aOWSgZDTkRDANLeAMFJok",
+              "address": "791,Sector -28\nGurgaon,Haryana ",
+              "placeId": "ChIJDbEs7SAZDTkRPkyHPulNNUw",
               "state": "ok",
               "stateDetails": ""
             }
